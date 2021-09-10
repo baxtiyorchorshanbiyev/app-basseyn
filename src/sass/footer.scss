@@ -1,0 +1,206 @@
+.footer{
+  width: 100%;
+  background-color: #182233;
+  .line{
+    width: 100%;
+    height: 2px;
+    background: #FFFFFF;
+  }
+  .footer-container{
+    width: 90%;
+    margin: 0 auto;
+    .footer-up{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 30px 0px;
+      @media(max-width:768px){
+        padding:10px 0px!important;
+      }
+      .logo-content{
+        text-align:center;
+        .navbar-brand{
+          display: flex;
+          justify-content: center;
+          align-items:center;
+          margin-bottom:20px;
+          // position: relative;
+          img{
+            // margin-right: 10px;
+            width: 50px;
+            height: 50px;
+          }
+          span{
+          font-family: 'Righteous', cursive;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 30px;
+          line-height: 45px;
+          @media(max-width:768px){
+            line-height:30px;
+          }
+          color: #FFFFFF;
+          }
+        }
+      }
+      .insta-content{
+        display: flex;
+        align-items: center;
+        margin-bottom:5px;
+        .insta{
+          margin-right: 20px;
+          .bx{
+            color:#fff;
+            font-size: 28px;
+          }
+        }
+        .insta-text{
+          font-family: 'Montserrat', sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 22px;
+          color: #FFFFFF;
+          text-decoration: none;
+        }
+      }
+      .phone-content{
+        display: flex;
+        align-items: center;
+        margin-bottom:5px;
+        .phone-number-icon{
+          margin-right: 20px;
+          .bx{
+            color:#fff;
+            font-size: 28px;
+          }
+        }
+        .phone-number{
+          font-family: 'Montserrat', sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 22px;
+          color: #FFFFFF;
+          text-decoration: none;
+        }
+      }
+    }
+    
+    .row{
+      padding:50px 0px 30px 0px;
+      h4{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 29px;
+        color: #FFFFFF;
+        margin-bottom:19px;
+      }
+      ul{
+        padding-left: 0px!important;
+        li{
+          list-style: none;
+          a{
+            font-family: 'Montserrat', sans-serif;
+            text-decoration: none;
+            display: block;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 22px;
+            color: #FFFFFF;
+            margin-bottom: 15px;
+          }
+        }
+      }
+      .send-message{
+        padding-bottom: 100px;
+        @media(max-width:576px){
+          padding-bottom:50px
+        }
+        h5{
+          font-family: 'Montserrat', sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 20px;
+          line-height: 22px;
+          color: #FFFFFF;
+          margin: 0px 0px 20px 0px;
+        }
+        .name{
+          width: 100%;
+          margin-right: 20px;
+          background: #FFFFFF;
+          border-radius: 6px;
+          font-family: 'Montserrat', sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 22px;
+          color: rgba(0, 0, 0, 0.5);
+          padding: 19px 5px 19px 30px;
+          border:none;
+          &:focus{
+            outline: none;
+          }
+        }
+        .phone-number{
+          width: 100%;
+          margin-right: 20px;
+          background: #FFFFFF;
+          border-radius: 6px;
+          font-family: 'Montserrat', sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 22px;
+          color: rgba(0, 0, 0, 0.5);
+          padding: 19px 5px 19px 30px;
+          border:none;
+          &:focus{
+            outline: none;
+          }
+        }
+        .send{
+          width:100%;
+          font-family: 'Montserrat', sans-serif;
+          padding: 19px 40px;
+          background: #4EAAE3;
+          border-radius: 6px;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 18px;
+          line-height: 22px;
+          color: #FFFFFF;
+          border:none;
+        }
+      }
+      
+    }
+    .copyright{
+      // background-color: #182233;
+      padding-bottom: 10px;
+      text-align: center;
+      h3{
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 0px!important;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 150%;
+        color: #FFFFFF;
+        span{
+          font-family: 'Montserrat', sans-serif;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 14px;
+          line-height: 150%;
+          color: #FFFFFF;
+        }
+      }
+    }
+    
+  }
+}

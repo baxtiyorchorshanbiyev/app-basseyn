@@ -1,0 +1,133 @@
+@import "~video-react/styles/scss/video-react";
+.work{
+  width: 100%;
+  background-color:#182233;
+  position: relative;
+  .work-container{
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 105px;
+    .catalog-title{
+      width: 350px;
+      @media(max-width:576px){
+        width: 250px;
+      }
+      margin:0 auto;
+      text-align: center;
+      padding-bottom: 30px;
+    
+      // background-color:red;
+      h1{
+        font-family: 'Prosto One', cursive;
+        // margin: 0 auto;
+        width: 100%;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 45px;
+        @media(max-width:575px){
+          font-size: 30px;
+        }
+        line-height: 30px;
+        color: #FFFFFF;
+        text-align:center;
+        margin: 0 auto;
+      }
+      .underline{
+        display: block;
+        width: 350px;
+        @media(max-width:576px){
+          width: 250px;
+        }
+        height: 4px;
+        background: #4EAAE3;
+        margin: 3px auto;
+      }
+      
+    }
+    .work-head-content{
+      display: flex;
+      justify-content: flex-end;
+      .layer{
+        display:none;
+        img{
+          width: 100%;
+        }
+        .video-react-poster{
+          width: 100%!important;
+          background-size: cover;
+          background-position: center;
+        }
+        @media(max-width:992px){
+          display: block;
+          margin-bottom: 40px;
+        }
+      }
+      .work-content{
+        width: 100%;
+        margin-left: auto;
+        .content{
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          color:#fff;
+          margin-bottom: 20px;
+          h3{
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 29px;
+            color: #FFFFFF;
+            margin-right: 21px;
+          }
+          h5{
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 22px;
+            color: #FFFFFF;
+          }
+          h6{
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            color: #FFFFFF;
+          }
+        }
+        .content-one{
+          color:#fff;
+          flex-direction: column;
+          p{
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 22px;
+            color: #FFFFFF;
+          }
+          .text-right{
+            text-align: right;
+          }
+          
+        }
+      }
+      
+      
+    }
+  }
+  .work-image{
+    width: 45%;
+    @media(max-width:992px){
+      display: none;
+    }
+    position: absolute;
+    top: 130px;
+    left: 0;
+    img{
+      width: 100%;
+    }
+  }
+}

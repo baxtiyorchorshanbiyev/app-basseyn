@@ -1,0 +1,52 @@
+@import "~video-react/styles/scss/video-react";
+.our{
+  width: 100%;
+  background-color:#182233;
+  .our-container{
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    .catalog-title{
+      width: 200px;
+      margin:0 auto;
+      text-align: center;
+      padding-bottom: 30px;
+    
+      // background-color:red;
+      h1{
+        font-family: 'Prosto One', cursive;
+        // margin: 0 auto;
+        width: 100%;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 45px;
+        line-height: 30px;
+        color: #FFFFFF;
+        text-align:center;
+        margin: 0 auto;
+      }
+      
+    }
+    .left{
+      margin-bottom:20px;
+      position: relative;
+      .video-react-poster{
+        width: 100%!important;
+        background-size: cover;
+        background-position: center;
+      }
+      
+      
+    }
+    .right{
+      p{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 30px;
+        color: #FFFFFF;
+      }
+    }
+  }
+}
